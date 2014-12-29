@@ -1,0 +1,28 @@
+{
+  "name": "goji-hapi-example",
+  "version": "0.1.0",
+  "description": "An example of using Goji in a Hapi application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "goji",
+    "hapi"
+  ],
+  "author": "James Sumners",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsumners/goji-hapi-example.git"
+  },
+  "homepage": "https://github.com/jsumners/goji-hapi-example",
+  "bugs": {
+    "url": "https://github.com/jsumners/goji-hapi-example/issues"
+  },
+  "dependencies": {
+    "goji": "^0.7.0",
+    "hapi": "^8.0.0",
+    "isdebug": "^0.1.1"
+  }
+}
