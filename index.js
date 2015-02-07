@@ -35,7 +35,9 @@ server.route({
     // Create a context for Goji to use during processing
     var context = {
       partial: {
-        name: 'partials/index'
+        // 'index' is the name of the file within the partials directory
+        // that will be loaded when `g-partial="partial.name"`
+        name: 'index'
       },
       foo: {
         url: '/foo'
@@ -54,7 +56,7 @@ server.route({
   handler: function fooHandler(request, reply) {
     var context = {
       partial: {
-        name: 'partials/foo'
+        name: 'foo'
       },
       foo: {
         class: 'bar',

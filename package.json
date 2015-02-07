@@ -1,6 +1,6 @@
 {
   "name": "goji-hapi-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An example of using Goji in a Hapi application",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
     "url": "https://github.com/jsumners/goji-hapi-example/issues"
   },
   "dependencies": {
-    "goji": "^0.7.0",
-    "hapi": "^8.0.0",
+    "goji": "^0.8.0",
+    "hapi": "^8.1.0",
     "isdebug": "^0.1.1"
   }
 }
